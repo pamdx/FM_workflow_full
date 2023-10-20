@@ -1,7 +1,7 @@
 # Parameters
-data <- imputed_data
-dispatch_year <- 2021
-year <- c(1995:dispatch_year)
+consolidated_imputed_data <- data_consolidated
+dispatch_year <- end_year_FM_workflow_full
+year <- c(start_year_FM_workflow_full:dispatch_year)
 oc3 <- c("Aquaculture", "Marine Coastal Fishing", "Marine Deep-Sea Fishing", "Inland Waters Fishing", "Marine Fishing, nei", "Subsistence", "Unspecified", "Processing")
 working_time <- c("Full time", "Part time", "Occasional", "Status Unspecified")
 sex <- c("M", "F", "U")
